@@ -34,6 +34,8 @@ name: get-current-time
 description: Fetch system time via plugin
 
 states:
+  initial: get_time
+
   get_time:
     type: operation
     operation: awf-plugin-time.time
@@ -45,7 +47,7 @@ states:
   done:
     type: terminal
     status: success
-    message: "Current time: {{states.get_time.output}}"
+    message: "Current time: {{.states.get_time.Output}}"
 ```
 
 ## Development
