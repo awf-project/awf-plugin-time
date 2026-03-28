@@ -1,0 +1,22 @@
+version: 2
+
+builds:
+  - binary: awf-plugin-time
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+
+archives:
+  - format: tar.gz
+    name_template: "awf-plugin-time_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    files:
+      - plugin.yaml
+
+checksum:
+  name_template: "{{ .ProjectName }}_{{ .Version }}_checksums.txt"
+  algorithm: sha256
