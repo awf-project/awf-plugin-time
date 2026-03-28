@@ -14,7 +14,7 @@ type TimePlugin struct {
 }
 
 func (p *TimePlugin) Name() string         { return "awf-plugin-time" }
-func (p *TimePlugin) Version() string      { return "1.0.0" }
+func (p *TimePlugin) Version() string      { return "1.1.0" }
 func (p *TimePlugin) Operations() []string { return []string{"time"} }
 
 func (p *TimePlugin) HandleOperation(_ context.Context, name string, inputs map[string]any) (*sdk.OperationResult, error) {
@@ -46,7 +46,7 @@ func main() {
 	sdk.Serve(&TimePlugin{
 		BasePlugin: sdk.BasePlugin{
 			PluginName:    "awf-plugin-time",
-			PluginVersion: "1.0.0",
+			PluginVersion: "1.1.0",
 		},
 	})
 }

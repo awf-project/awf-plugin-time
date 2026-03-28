@@ -1,5 +1,5 @@
 name: awf-plugin-time
-version: 1.0.0
+version: 1.1.0
 description: Returns current system date/time for workflow injection
 awf_version: ">=0.4.0"
 author: AWF Project

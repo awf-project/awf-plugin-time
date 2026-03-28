@@ -21,7 +21,7 @@ func newTimePlugin() *TimePlugin {
 	return &TimePlugin{
 		BasePlugin: sdk.BasePlugin{
 			PluginName:    "awf-plugin-time",
-			PluginVersion: "1.0.0",
+			PluginVersion: "1.1.0",
 		},
 	}
 }
@@ -35,7 +35,7 @@ func TestTimePlugin_Name(t *testing.T) {
 func TestTimePlugin_Version(t *testing.T) {
 	p := newTimePlugin()
 
-	assert.Equal(t, "1.0.0", p.Version())
+	assert.Equal(t, "1.1.0", p.Version())
 }
 
 func TestTimePlugin_Operations(t *testing.T) {
@@ -180,7 +180,7 @@ func TestPluginYAMLManifest(t *testing.T) {
 	assert.Contains(t, manifest, "name:")
 	assert.Contains(t, manifest, "awf-plugin-time")
 	assert.Contains(t, manifest, "version:")
-	assert.Contains(t, manifest, "1.0.0")
+	assert.Contains(t, manifest, "1.1.0")
 	assert.Contains(t, manifest, "awf_version:")
 	assert.Contains(t, manifest, "capabilities:")
 	assert.Contains(t, manifest, "operations")
