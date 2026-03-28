@@ -3,7 +3,7 @@ module github.com/awf-project/awf-plugin-time
 go 1.25.0
 
 require (
-	github.com/awf-project/cli v0.4.1-0.20260328104123-3c9593b901de
+	github.com/awf-project/cli v0.4.1
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -27,5 +27,3 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/awf-project/cli => /home/pocky/Sites/awf-project/cli
