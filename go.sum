@@ -4,6 +4,8 @@ github.com/awf-project/cli v0.11.8 h1:4QRpkIU+s4N5XViMvZdOJF5X4FU3kZEQWcyCPYT6jK
 github.com/awf-project/cli v0.11.8/go.mod h1:PVaf2xV+YsOBs+VEKWm9UMWZHOkxG5kWFXYZs8wOkOE=
 github.com/awf-project/cli v0.11.9 h1:yLaM5RHEJy7eF7jB/PmJapRSx8ooJ2IqgvTimtOnYE4=
 github.com/awf-project/cli v0.11.9/go.mod h1:kqBp3rQPwFzA5/sNbVVEuhfBjanUkR+o1Gm4gnK9/AM=
+github.com/awf-project/cli v0.11.10 h1:rUK0ceu8IyM/Zz+g4OAhQXuoHYctBXw0foa/3mmB9og=
+github.com/awf-project/cli v0.11.10/go.mod h1:5Y0eoK+GBvL8rzhbBDkcvWxXdtNvJwTpCVL+CsrNjvo=
 github.com/bufbuild/protocompile v0.14.1 h1:iA73zAf/fyljNjQKwYzUHD6AD4R8KMasmwa/FBatYVw=
 github.com/bufbuild/protocompile v0.14.1/go.mod h1:ppVdAIhbr2H8asPk6k4pY7t9zB1OU5DoEw9xY/FUi1c=
 github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs=

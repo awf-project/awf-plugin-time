@@ -3,7 +3,7 @@ module github.com/awf-project/awf-plugin-time
 go 1.26.7
 
 require (
-	github.com/awf-project/cli v0.11.9
+	github.com/awf-project/cli v0.11.10
 	github.com/stretchr/testify v1.12.1
 )
 
